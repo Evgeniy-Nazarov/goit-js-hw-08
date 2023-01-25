@@ -107,3 +107,19 @@ dist
 
 # TernJS port file
 .tern-port
+*.md
+.editorconfig
+.github/workflows/deploy.yml
+.htmlnanorc
+.parcelrc
+.posthtmlrc
+.prettierrc
+.sassrc
+assets/actions-config-step-1.png
+assets/actions-config-step-2.png
+assets/how-it-works.png
+assets/repo-settings.png
+assets/status.png
+package-lock.json
+package.json
+goit-js-hw-08/
