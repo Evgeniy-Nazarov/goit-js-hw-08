@@ -17,7 +17,7 @@ function onFormData(e) {
 
 function onSubmitForm(e) {
   if (email.value === '' || message.value === '') {
-    alert('Please, fill in all fields');
+    alert('Заполните пожалуйста все поля формы');
     return;
   }
    e.preventDefault();
@@ -33,8 +33,8 @@ function dataFromLocalStorage() {
   if (localStorage.length !== 0) {   
     formData.email = data.email;
     formData.message = data.message;
-    email.value = data.email;
-    message.value = data.message;
+    form.value = data.email;
+    form.value = data.message;
   
   }
 }
