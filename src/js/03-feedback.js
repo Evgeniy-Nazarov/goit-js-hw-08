@@ -24,6 +24,9 @@ function onSubmitForm(e) {
   e.preventDefault();
   e.target.reset();
   localStorage.removeItem('feedback-form-state');
+  localStorage.clear();
+  email.value = '';
+  message.value = '';
   
 }
   
